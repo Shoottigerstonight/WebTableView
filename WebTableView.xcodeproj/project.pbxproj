@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDF58C071FA86C1600F16703 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF58C061FA86C1600F16703 /* AppDelegate.m */; };
+		FDF58C0A1FA86C1600F16703 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF58C091FA86C1600F16703 /* ViewController.m */; };
+		FDF58C0D1FA86C1600F16703 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF58C0B1FA86C1600F16703 /* Main.storyboard */; };
+		FDF58C0F1FA86C1600F16703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF58C0E1FA86C1600F16703 /* Assets.xcassets */; };
+		FDF58C121FA86C1600F16703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF58C101FA86C1600F16703 /* LaunchScreen.storyboard */; };
+		FDF58C151FA86C1600F16703 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF58C141FA86C1600F16703 /* main.m */; };
+		FDF58C1F1FA86C1700F16703 /* WebTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF58C1E1FA86C1700F16703 /* WebTableViewTests.m */; };
+		FDF58C2A1FA86C1700F16703 /* WebTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF58C291FA86C1700F16703 /* WebTableViewUITests.m */; };
+		FDF58C391FA86C5A00F16703 /* WebTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF58C381FA86C5A00F16703 /* WebTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDF58C1B1FA86C1700F16703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDF58BFA1FA86C1600F16703 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDF58C011FA86C1600F16703;
+			remoteInfo = WebTableView;
+		};
+		FDF58C261FA86C1700F16703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDF58BFA1FA86C1600F16703 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDF58C011FA86C1600F16703;
+			remoteInfo = WebTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDF58C021FA86C1600F16703 /* WebTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF58C051FA86C1600F16703 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDF58C061FA86C1600F16703 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDF58C081FA86C1600F16703 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDF58C091FA86C1600F16703 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDF58C0C1FA86C1600F16703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDF58C0E1FA86C1600F16703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDF58C111FA86C1600F16703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDF58C131FA86C1600F16703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF58C141FA86C1600F16703 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDF58C1A1FA86C1700F16703 /* WebTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF58C1E1FA86C1700F16703 /* WebTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebTableViewTests.m; sourceTree = "<group>"; };
+		FDF58C201FA86C1700F16703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF58C251FA86C1700F16703 /* WebTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF58C291FA86C1700F16703 /* WebTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebTableViewUITests.m; sourceTree = "<group>"; };
+		FDF58C2B1FA86C1700F16703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF58C371FA86C5A00F16703 /* WebTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebTableViewController.h; sourceTree = "<group>"; };
+		FDF58C381FA86C5A00F16703 /* WebTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDF58BFF1FA86C1600F16703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF58C171FA86C1700F16703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF58C221FA86C1700F16703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDF58BF91FA86C1600F16703 = {
+			isa = PBXGroup;
+			children = (
+				FDF58C041FA86C1600F16703 /* WebTableView */,
+				FDF58C1D1FA86C1700F16703 /* WebTableViewTests */,
+				FDF58C281FA86C1700F16703 /* WebTableViewUITests */,
+				FDF58C031FA86C1600F16703 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDF58C031FA86C1600F16703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF58C021FA86C1600F16703 /* WebTableView.app */,
+				FDF58C1A1FA86C1700F16703 /* WebTableViewTests.xctest */,
+				FDF58C251FA86C1700F16703 /* WebTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF58C041FA86C1600F16703 /* WebTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FDF58C051FA86C1600F16703 /* AppDelegate.h */,
+				FDF58C061FA86C1600F16703 /* AppDelegate.m */,
+				FDF58C081FA86C1600F16703 /* ViewController.h */,
+				FDF58C091FA86C1600F16703 /* ViewController.m */,
+				FDF58C371FA86C5A00F16703 /* WebTableViewController.h */,
+				FDF58C381FA86C5A00F16703 /* WebTableViewController.m */,
+				FDF58C0B1FA86C1600F16703 /* Main.storyboard */,
+				FDF58C0E1FA86C1600F16703 /* Assets.xcassets */,
+				FDF58C101FA86C1600F16703 /* LaunchScreen.storyboard */,
+				FDF58C131FA86C1600F16703 /* Info.plist */,
+				FDF58C141FA86C1600F16703 /* main.m */,
+			);
+			path = WebTableView;
+			sourceTree = "<group>";
+		};
+		FDF58C1D1FA86C1700F16703 /* WebTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDF58C1E1FA86C1700F16703 /* WebTableViewTests.m */,
+				FDF58C201FA86C1700F16703 /* Info.plist */,
+			);
+			path = WebTableViewTests;
+			sourceTree = "<group>";
+		};
+		FDF58C281FA86C1700F16703 /* WebTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDF58C291FA86C1700F16703 /* WebTableViewUITests.m */,
+				FDF58C2B1FA86C1700F16703 /* Info.plist */,
+			);
+			path = WebTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDF58C011FA86C1600F16703 /* WebTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF58C2E1FA86C1700F16703 /* Build configuration list for PBXNativeTarget "WebTableView" */;
+			buildPhases = (
+				FDF58BFE1FA86C1600F16703 /* Sources */,
+				FDF58BFF1FA86C1600F16703 /* Frameworks */,
+				FDF58C001FA86C1600F16703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebTableView;
+			productName = WebTableView;
+			productReference = FDF58C021FA86C1600F16703 /* WebTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDF58C191FA86C1700F16703 /* WebTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF58C311FA86C1700F16703 /* Build configuration list for PBXNativeTarget "WebTableViewTests" */;
+			buildPhases = (
+				FDF58C161FA86C1700F16703 /* Sources */,
+				FDF58C171FA86C1700F16703 /* Frameworks */,
+				FDF58C181FA86C1700F16703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDF58C1C1FA86C1700F16703 /* PBXTargetDependency */,
+			);
+			name = WebTableViewTests;
+			productName = WebTableViewTests;
+			productReference = FDF58C1A1FA86C1700F16703 /* WebTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDF58C241FA86C1700F16703 /* WebTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF58C341FA86C1700F16703 /* Build configuration list for PBXNativeTarget "WebTableViewUITests" */;
+			buildPhases = (
+				FDF58C211FA86C1700F16703 /* Sources */,
+				FDF58C221FA86C1700F16703 /* Frameworks */,
+				FDF58C231FA86C1700F16703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDF58C271FA86C1700F16703 /* PBXTargetDependency */,
+			);
+			name = WebTableViewUITests;
+			productName = WebTableViewUITests;
+			productReference = FDF58C251FA86C1700F16703 /* WebTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF58BFA1FA86C1600F16703 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "今晚打老虎";
+				TargetAttributes = {
+					FDF58C011FA86C1600F16703 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					FDF58C191FA86C1700F16703 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDF58C011FA86C1600F16703;
+					};
+					FDF58C241FA86C1700F16703 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDF58C011FA86C1600F16703;
+					};
+				};
+			};
+			buildConfigurationList = FDF58BFD1FA86C1600F16703 /* Build configuration list for PBXProject "WebTableView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDF58BF91FA86C1600F16703;
+			productRefGroup = FDF58C031FA86C1600F16703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDF58C011FA86C1600F16703 /* WebTableView */,
+				FDF58C191FA86C1700F16703 /* WebTableViewTests */,
+				FDF58C241FA86C1700F16703 /* WebTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDF58C001FA86C1600F16703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF58C121FA86C1600F16703 /* LaunchScreen.storyboard in Resources */,
+				FDF58C0F1FA86C1600F16703 /* Assets.xcassets in Resources */,
+				FDF58C0D1FA86C1600F16703 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF58C181FA86C1700F16703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF58C231FA86C1700F16703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDF58BFE1FA86C1600F16703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF58C391FA86C5A00F16703 /* WebTableViewController.m in Sources */,
+				FDF58C0A1FA86C1600F16703 /* ViewController.m in Sources */,
+				FDF58C151FA86C1600F16703 /* main.m in Sources */,
+				FDF58C071FA86C1600F16703 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF58C161FA86C1700F16703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF58C1F1FA86C1700F16703 /* WebTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF58C211FA86C1700F16703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF58C2A1FA86C1700F16703 /* WebTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDF58C1C1FA86C1700F16703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDF58C011FA86C1600F16703 /* WebTableView */;
+			targetProxy = FDF58C1B1FA86C1700F16703 /* PBXContainerItemProxy */;
+		};
+		FDF58C271FA86C1700F16703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDF58C011FA86C1600F16703 /* WebTableView */;
+			targetProxy = FDF58C261FA86C1700F16703 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDF58C0B1FA86C1600F16703 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF58C0C1FA86C1600F16703 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDF58C101FA86C1600F16703 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF58C111FA86C1600F16703 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDF58C2C1FA86C1700F16703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDF58C2D1FA86C1700F16703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDF58C2F1FA86C1700F16703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TT2XH3PYW;
+				INFOPLIST_FILE = WebTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wd.WebTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDF58C301FA86C1700F16703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TT2XH3PYW;
+				INFOPLIST_FILE = WebTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wd.WebTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDF58C321FA86C1700F16703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TT2XH3PYW;
+				INFOPLIST_FILE = WebTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-----.WebTableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebTableView.app/WebTableView";
+			};
+			name = Debug;
+		};
+		FDF58C331FA86C1700F16703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TT2XH3PYW;
+				INFOPLIST_FILE = WebTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-----.WebTableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebTableView.app/WebTableView";
+			};
+			name = Release;
+		};
+		FDF58C351FA86C1700F16703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TT2XH3PYW;
+				INFOPLIST_FILE = WebTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-----.WebTableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebTableView;
+			};
+			name = Debug;
+		};
+		FDF58C361FA86C1700F16703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TT2XH3PYW;
+				INFOPLIST_FILE = WebTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-----.WebTableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDF58BFD1FA86C1600F16703 /* Build configuration list for PBXProject "WebTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF58C2C1FA86C1700F16703 /* Debug */,
+				FDF58C2D1FA86C1700F16703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF58C2E1FA86C1700F16703 /* Build configuration list for PBXNativeTarget "WebTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF58C2F1FA86C1700F16703 /* Debug */,
+				FDF58C301FA86C1700F16703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF58C311FA86C1700F16703 /* Build configuration list for PBXNativeTarget "WebTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF58C321FA86C1700F16703 /* Debug */,
+				FDF58C331FA86C1700F16703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF58C341FA86C1700F16703 /* Build configuration list for PBXNativeTarget "WebTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF58C351FA86C1700F16703 /* Debug */,
+				FDF58C361FA86C1700F16703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDF58BFA1FA86C1600F16703 /* Project object */;
+}
